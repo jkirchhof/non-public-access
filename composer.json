@@ -1,0 +1,17 @@
+{
+    "name": "jkirchhof/non-public-access",
+    "description": "Utilities for accessing protected and private methods by reflection.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joe Kirchhof",
+            "email": "joe@obscurae.com"
+        }
+    ],
+    "require": {
+      "php": "^7.0"
+    },
+    "autoload": {
+      "psr-4": {"NonPublicAccess\\": "src/"}
+    }
+}
